@@ -1,1 +1,131 @@
+nav{
+	background-color: grey;
+	padding-left: 60px;
+	padding-left: 60px;
+	width: 100%;
+	height: 60px;
+	position: fixed;
+}
 
+li{
+	display: inline-block;
+}
+img.navcat{
+	display: inline-block;
+	 border: 1px black solid;
+	 border-radius: 50%;
+}
+ul{
+	display: inline-block;
+}
+
+.bigbox{
+	height: 300px;
+	width: 600px;
+	border: 10px green dotted;
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 300px;
+}
+
+.box{
+	height: 200px;
+	width: 200px;
+}
+
+.cat{
+	position: absolute;
+	left: -100px;
+	top:-100px;
+}
+.dog{
+	position: absolute;
+	right: -100px;
+	bottom:-100px;
+}
+
+html { 
+  background: url(../images/outerspace_landscape.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*
+.container {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+nav {
+  height: 60px;
+  background-color: grey;
+  position: fixed;
+  width: 100%;
+}
+
+nav .icon-img {
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid black;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li::after {
+  content: "|";
+  margin-left: 5px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+body {
+  background: url(../images/outerspace_landscape.jpeg) no-repeat;
+  background-size: cover;
+}
+
+main {
+  padding-top: 90px;
+  min-width: 1000px;
+}
+
+.box {
+  margin-top: 150px;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  border: 10px dotted green;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.spacecat, .spacedog {
+  position: absolute;
+  width: 200px;
+}
+
+.spacecat {
+  top: -90px;
+  left: -90px;
+}
+
+.spacedog {
+  bottom: -120px;
+  right: -60px;
+}
+*/
